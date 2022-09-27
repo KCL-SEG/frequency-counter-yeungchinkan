@@ -8,7 +8,7 @@ def frequencies(items):
     frequencies = {}
     for i in items:
         
-        if frequencies.has_key(str(i)) == False:
+        if str(i) in frequencies == False:
             frequencies[str(i)] = 1
         else:
             frequencies[str(i)] += 1
