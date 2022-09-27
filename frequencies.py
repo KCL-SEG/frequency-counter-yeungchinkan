@@ -8,7 +8,7 @@ def frequencies(items):
     frequencies = {}
     for i in items:
         
-        if str(i) in frequencies == False:
+        if str(i) in frequencies == False and i in frequencies == False:
             frequencies[str(i)] = 1
         else:
             frequencies[str(i)] += 1
